@@ -1,3 +1,4 @@
+import Comments from "./components/Comments"
 import Post from "./components/Post"
 
 
@@ -12,6 +13,7 @@ function App() {
       </p>
       <hr className="my-6" />
       <Post />
+      <Comments />
     </>
   )
 }
