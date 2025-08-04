@@ -1,4 +1,5 @@
 import Comments from "./components/Comments"
+import Photos from "./components/Photos"
 import Post from "./components/Post"
 
 
@@ -12,8 +13,9 @@ function App() {
         Redux Toolkit Practice
       </p>
       <hr className="my-6" />
-      <Post />
-      <Comments />
+      {/* <Post /> */}
+      {/* <Comments /> */}
+      <Photos />
     </>
   )
 }
