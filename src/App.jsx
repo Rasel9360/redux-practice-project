@@ -1,6 +1,7 @@
 import Comments from "./components/Comments"
 import Photos from "./components/Photos"
 import Post from "./components/Post"
+import Products from "./components/Products"
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       <hr className="my-6" />
       {/* <Post /> */}
       {/* <Comments /> */}
-      <Photos />
+      {/* <Photos /> */}
+      <Products />
     </>
   )
 }
